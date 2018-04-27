@@ -1,0 +1,100 @@
+/*Big tablet to 1200px (widths smaller than the 1140px row)*/
+@media only screen and (max-width: 1200px){
+    header {
+      padding-left: 60px;
+      padding-right: 60px;
+    }
+}
+
+/*small tablets to big tablets: from 768px to 1023px */
+@media only screen and (max-width: 1023px){
+    body {font-size: 17px;}
+    section {padding: 10px 0;}
+
+    .long-copy {
+      width: 80%;
+      margin-left: 10%;
+    }
+
+    .showcase-cities li {
+      display: block;
+      width: 80%;
+      margin-left: 10%;
+    }
+
+    .section-cities figure {margin-bottom: 40px;}
+
+    .showcase-cities a {
+      position: relative;
+      top:-20px;
+    }
+
+    #mapArea {
+        margin-bottom: 0px;
+    }
+
+    .section-footer {
+        padding: 0;
+    }
+
+    #mapArea-Cities  {
+        width: 100%;
+        height: 400px;
+        margin-bottom: 0;
+        margin-left: 0;
+    }
+}
+/*Small phones to small tablets: from 481 to 767px*/
+@media only screen and (max-width: 767px){
+    body {font-size: 16px;}
+    section {padding: 0;}
+    header {
+      padding:0;
+    }
+    nav {
+      padding: 10px;
+      border-bottom: 1px solid #d1d4dd;
+    }
+
+    .mainNavi {
+      float: left;
+      z-index: 100;
+      width: 100%;
+      font-size: 150%;
+      text-align: center;
+      padding-bottom: 40px;
+      display: none;
+    }
+
+    .mainNavi li {display: block;}
+
+    .mainNavi li:hover,
+    .mainNavi li:active {
+      border-bottom: 0;
+    }
+
+    .mobile-nav-icon {
+      display: inline-block;
+      padding-top : 10px;
+    }
+
+    .logo img {
+      width: 130px;
+    }
+
+    .long-copy {
+        width: 90%;
+        margin-left: 5%;
+    }
+
+    .photo-big {
+      width: 100%;
+      margin-left: 0;
+    }
+
+}
+
+
+/*Small phones: from 0 to 480px*/
+@media only screen and (max-width: 480px){
+}
